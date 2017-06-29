@@ -1,0 +1,6 @@
+framework module HKShareLib {
+  umbrella header "HKShareLib.h"
+
+  export *
+  module * { export * }
+}

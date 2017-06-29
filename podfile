@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+use_frameworks!
+
+target ‘HKShareLib’ do 
+
+   pod 'UMengUShare/UI', '~> 6.4.4'
+   pod 'UMengUShare/Social/WeChat', '~> 6.4.4'
+   pod 'UMengUShare/Social/ReducedQQ', '~> 6.4.4'
+   pod 'UMengUShare/Social/ReducedSina', '~> 6.4.4'
+
+end 

@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE6A0E8174E9171BCDC0BAA6 /* Pods_HKShareLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44667E690ED386952DB3F890 /* Pods_HKShareLib.framework */; };
+		EA3009281F049351001CF285 /* HKShareLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA30091E1F049351001CF285 /* HKShareLib.framework */; };
+		EA30092D1F049351001CF285 /* HKShareLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA30092C1F049351001CF285 /* HKShareLibTests.swift */; };
+		EA30092F1F049351001CF285 /* HKShareLib.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3009211F049351001CF285 /* HKShareLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA3009291F049351001CF285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA3009151F049351001CF285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA30091D1F049351001CF285;
+			remoteInfo = HKShareLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44667E690ED386952DB3F890 /* Pods_HKShareLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HKShareLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E9ADD7F3741E203C44A7FA /* Pods-HKShareLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKShareLib.release.xcconfig"; path = "Pods/Target Support Files/Pods-HKShareLib/Pods-HKShareLib.release.xcconfig"; sourceTree = "<group>"; };
+		DB84E4C63BE521B37D5EAB9B /* Pods-HKShareLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKShareLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HKShareLib/Pods-HKShareLib.debug.xcconfig"; sourceTree = "<group>"; };
+		EA30091E1F049351001CF285 /* HKShareLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HKShareLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3009211F049351001CF285 /* HKShareLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKShareLib.h; sourceTree = "<group>"; };
+		EA3009221F049351001CF285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3009271F049351001CF285 /* HKShareLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HKShareLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA30092C1F049351001CF285 /* HKShareLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKShareLibTests.swift; sourceTree = "<group>"; };
+		EA30092E1F049351001CF285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA30091A1F049351001CF285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6A0E8174E9171BCDC0BAA6 /* Pods_HKShareLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3009241F049351001CF285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3009281F049351001CF285 /* HKShareLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DA92A697DBFB9708BB8C79D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44667E690ED386952DB3F890 /* Pods_HKShareLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94CA1BDE8C3ECDFF0E743FC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB84E4C63BE521B37D5EAB9B /* Pods-HKShareLib.debug.xcconfig */,
+				B1E9ADD7F3741E203C44A7FA /* Pods-HKShareLib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA3009141F049351001CF285 = {
+			isa = PBXGroup;
+			children = (
+				EA3009201F049351001CF285 /* HKShareLib */,
+				EA30092B1F049351001CF285 /* HKShareLibTests */,
+				EA30091F1F049351001CF285 /* Products */,
+				94CA1BDE8C3ECDFF0E743FC3 /* Pods */,
+				8DA92A697DBFB9708BB8C79D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA30091F1F049351001CF285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA30091E1F049351001CF285 /* HKShareLib.framework */,
+				EA3009271F049351001CF285 /* HKShareLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA3009201F049351001CF285 /* HKShareLib */ = {
+			isa = PBXGroup;
+			children = (
+				EA3009211F049351001CF285 /* HKShareLib.h */,
+				EA3009221F049351001CF285 /* Info.plist */,
+			);
+			path = HKShareLib;
+			sourceTree = "<group>";
+		};
+		EA30092B1F049351001CF285 /* HKShareLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA30092C1F049351001CF285 /* HKShareLibTests.swift */,
+				EA30092E1F049351001CF285 /* Info.plist */,
+			);
+			path = HKShareLibTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EA30091B1F049351001CF285 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA30092F1F049351001CF285 /* HKShareLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EA30091D1F049351001CF285 /* HKShareLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3009321F049351001CF285 /* Build configuration list for PBXNativeTarget "HKShareLib" */;
+			buildPhases = (
+				AA25C31B8330098535F14A96 /* [CP] Check Pods Manifest.lock */,
+				EA3009191F049351001CF285 /* Sources */,
+				EA30091A1F049351001CF285 /* Frameworks */,
+				EA30091B1F049351001CF285 /* Headers */,
+				EA30091C1F049351001CF285 /* Resources */,
+				C309495685B9749687726848 /* [CP] Copy Pods Resources */,
+				EA3009381F049851001CF285 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HKShareLib;
+			productName = HKShareLib;
+			productReference = EA30091E1F049351001CF285 /* HKShareLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA3009261F049351001CF285 /* HKShareLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3009351F049351001CF285 /* Build configuration list for PBXNativeTarget "HKShareLibTests" */;
+			buildPhases = (
+				EA3009231F049351001CF285 /* Sources */,
+				EA3009241F049351001CF285 /* Frameworks */,
+				EA3009251F049351001CF285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA30092A1F049351001CF285 /* PBXTargetDependency */,
+			);
+			name = HKShareLibTests;
+			productName = HKShareLibTests;
+			productReference = EA3009271F049351001CF285 /* HKShareLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA3009151F049351001CF285 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "罗伟";
+				TargetAttributes = {
+					EA30091D1F049351001CF285 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YVG6KC69KQ;
+						ProvisioningStyle = Automatic;
+					};
+					EA3009261F049351001CF285 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YVG6KC69KQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA3009181F049351001CF285 /* Build configuration list for PBXProject "HKShareLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA3009141F049351001CF285;
+			productRefGroup = EA30091F1F049351001CF285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA30091D1F049351001CF285 /* HKShareLib */,
+				EA3009261F049351001CF285 /* HKShareLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA30091C1F049351001CF285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3009251F049351001CF285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA25C31B8330098535F14A96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C309495685B9749687726848 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HKShareLib/Pods-HKShareLib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA3009381F049851001CF285 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${ACTION}\" = \"build\" ]\nthen\nINSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}.framework\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\nlipo -create \"${DEVICE_DIR}/${PROJECT_NAME}\" \"${SIMULATOR_DIR}/${PROJECT_NAME}\" -output \"${INSTALL_DIR}/${PROJECT_NAME}\"\nopen \"${DEVICE_DIR}\"\nopen \"${SRCROOT}/Products\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA3009191F049351001CF285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3009231F049351001CF285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA30092D1F049351001CF285 /* HKShareLibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA30092A1F049351001CF285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA30091D1F049351001CF285 /* HKShareLib */;
+			targetProxy = EA3009291F049351001CF285 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA3009301F049351001CF285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA3009311F049351001CF285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA3009331F049351001CF285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB84E4C63BE521B37D5EAB9B /* Pods-HKShareLib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YVG6KC69KQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HKShareLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"SocialQQ\"",
+					"-l\"SocialSina\"",
+					"-l\"SocialWeChat\"",
+					"-l\"UMSocialLog\"",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UMSocialCore\"",
+					"-framework",
+					"\"UMSocialNetwork\"",
+					"-framework",
+					"\"UShareUI\"",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeKing.HKShareLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA3009341F049351001CF285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1E9ADD7F3741E203C44A7FA /* Pods-HKShareLib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YVG6KC69KQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HKShareLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"SocialQQ\"",
+					"-l\"SocialSina\"",
+					"-l\"SocialWeChat\"",
+					"-l\"UMSocialLog\"",
+					"-l\"WeChatSDK\"",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UMSocialCore\"",
+					"-framework",
+					"\"UMSocialNetwork\"",
+					"-framework",
+					"\"UShareUI\"",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeKing.HKShareLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EA3009361F049351001CF285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YVG6KC69KQ;
+				INFOPLIST_FILE = HKShareLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeKing.HKShareLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA3009371F049351001CF285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YVG6KC69KQ;
+				INFOPLIST_FILE = HKShareLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HomeKing.HKShareLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA3009181F049351001CF285 /* Build configuration list for PBXProject "HKShareLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3009301F049351001CF285 /* Debug */,
+				EA3009311F049351001CF285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3009321F049351001CF285 /* Build configuration list for PBXNativeTarget "HKShareLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3009331F049351001CF285 /* Debug */,
+				EA3009341F049351001CF285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3009351F049351001CF285 /* Build configuration list for PBXNativeTarget "HKShareLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3009361F049351001CF285 /* Debug */,
+				EA3009371F049351001CF285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA3009151F049351001CF285 /* Project object */;
+}
