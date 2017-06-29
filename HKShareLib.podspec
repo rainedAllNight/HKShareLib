@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HKShareLib"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of HKShareLib."
   s.description  = "Share Framework 测试"
                    
