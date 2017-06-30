@@ -176,6 +176,7 @@
 					EA30091D1F049351001CF285 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = YVG6KC69KQ;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					EA3009261F049351001CF285 = {
@@ -398,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB84E4C63BE521B37D5EAB9B /* Pods-HKShareLib.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = YVG6KC69KQ;
@@ -438,6 +440,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.HomeKing.HKShareLib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -446,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1E9ADD7F3741E203C44A7FA /* Pods-HKShareLib.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = YVG6KC69KQ;

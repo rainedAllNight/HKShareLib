@@ -10,10 +10,10 @@
 
 //! Project version number for HKShareLib.
 FOUNDATION_EXPORT double HKShareLibVersionNumber;
-
 //! Project version string for HKShareLib.
 FOUNDATION_EXPORT const unsigned char HKShareLibVersionString[];
-
+#import "UMSocialCore/UMSocialCore.h"
+#import "UShareUI/UShareUI.h"
 // In this header, you should import all the public headers of your framework using statements like #import <HKShareLib/PublicHeader.h>
 
 
