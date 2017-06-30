@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HKShareLib"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "A short description of HKShareLib."
   s.description  = "Share Framework 测试"
                    
@@ -32,6 +32,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/rainedAllNight/HKShareLib.git", :tag => "#{s.version}" }
 
   s.source_files  =  "Products/**/*.{h,m}"
+  s.vendored_frameworks = 'Products/HKShareLib.framework'
   s.dependency 'UMengUShare/UI', '~> 6.4.4'
   s.dependency 'UMengUShare/Social/WeChat', '~> 6.4.4'
   s.dependency 'UMengUShare/Social/ReducedQQ', '~> 6.4.4'
